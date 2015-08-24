@@ -1,0 +1,80 @@
+/* 
+bg1 #f7f7f7
+bg2 #252726
+bg3 #131316
+bg4 #
+bg5 #
+bg6 #
+
+
+*/
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: red;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background: blue;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  body {
+    background: green;
+  }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1199px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 991px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 479px) {}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 319px) {}
