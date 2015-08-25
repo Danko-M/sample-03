@@ -1,4 +1,4 @@
-function initMap() {
+(function initMap() {
   var uluru = {
     lat: -25.363,
     lng: 131.044
@@ -32,6 +32,5 @@ function initMap() {
   marker.addListener('click', function() {
     infowindow.open(map, marker);
   });
-};
+})();
 
-initMap();
