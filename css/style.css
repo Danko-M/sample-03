@@ -6,6 +6,7 @@ bg4 #
 bg5 #
 bg6 #
 
+blue #00e1ff
 
 */
 
@@ -31,9 +32,18 @@ h3 {
 	content: "";
 	width: 100px;
 	height: 2px;
-	background: #00E1FF;
+	background: #00e1ff;
 	margin: 30px auto 10px;
 }
+.bg1 {background: #f7f7f7;}
+.bg2 {background: #252726;}
+.bg3 {background: #131316;}
+.bg4 {background: #000;}
+.bg5 {background: #000;}
+
+
+
+
 
 /* nav */
 .navbar {
@@ -64,6 +74,11 @@ h3 {
 	background: url(../img/icons.png) 0 0 ;
 }
 
+.col-sm-8.col-sm-offset-2 {
+	margin-bottom: 30px;
+}
+
+
 
 /* timeline*/
 
@@ -90,8 +105,8 @@ h3 {
 /* team */
 .team-card {
 	max-width: 270px;
-	margin: 0 auto;
-	background: lightgray;
+	margin: 0 auto 20px;
+	background: #f7f7f7;
 }
 
 .social {
@@ -106,10 +121,10 @@ h3 {
 	float: left;
   width: 24.6666%;
   margin-right: 1px;
-	background: lightgray;
+	background: #f7f7f7;
 }
 .social li:hover {
-	background: orange;
+	background: #00e1ff;
 }
 
 .social .last {
@@ -131,7 +146,20 @@ h3 {
 }
 /* end team*/
 
-
+/* news */
+.media-left {
+	position: relative;
+	top: -10px;
+	min-width: 65px;
+}
+.date {
+	font-size: 30px;
+	color: #00e1ff;
+}
+.month {
+	font-size: 10px;
+}
+/* end news */
 .map {
   height: 300px;
 }
@@ -174,6 +202,23 @@ h3 {
 	.circle {
 		display: block;
 	}
+	/* news */
+	.media-body {
+		vertical-align: middle;
+		border-bottom: 1px solid #edf2f6;
+	}	
+	.media-left {
+		top: -15px;
+	  min-width: 100px;
+		vertical-align: middle;
+	}
+	.date {
+		font-size: 66px;
+	}
+	.month {
+		font-size: 14px;
+	}
+	/* end news */
 }
 	
 
@@ -188,7 +233,9 @@ h3 {
 	.container {
 	  width: 1150px;
 	}
-
+	.landing {
+		background: none;
+	}
 
 }
 
