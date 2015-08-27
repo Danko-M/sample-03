@@ -2,15 +2,14 @@ $(function() {
 	var trueWidth = window.innerWidth;
   function resizeBg() {
     if (trueWidth >= 1200) {
-      $(".landing").backstretch("img/zoom-29719860-3.jpg", {
-        centeredX: true,
-        fade : "normal"
+      $(".landing").backstretch("img/hero.jpg", {
+        // centeredX: true,
+        // fade : "fast"
       });
     }
-  }
-
-  $(window).on("resize", resizeBg);
+  }  
   resizeBg();
-  $(".c01").backstretch("img/city01b.jpg");
-  $(".c02").backstretch("img/city03b.jpg");
+
+  $(".c01").backstretch("img/city01.jpg");
+  $(".c02").backstretch("img/city03.jpg");
 });
