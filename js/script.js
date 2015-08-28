@@ -2,10 +2,7 @@ $(function() {
 	var trueWidth = window.innerWidth;
   function resizeBg() {
     if (trueWidth >= 1200) {
-      $(".landing").backstretch("img/hero.jpg", {
-        // centeredX: true,
-        // fade : "fast"
-      });
+      $(".landing").backstretch("img/hero.jpg");
     }
   }  
   resizeBg();
