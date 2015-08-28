@@ -185,7 +185,9 @@ h3 {
   height: auto;
   margin: 0 auto;
 }
-
+.browsers {
+  margin-bottom: -30px;
+}
 
 /* timeline*/
 
@@ -375,8 +377,7 @@ h3 {
   .navbar-brand {
     margin-left: -15px;
   }
-  .mobile,
-  .browsers {
+  .mobile {
     margin-bottom: -30px;
   }
   .timeline-lt {
