@@ -40,9 +40,10 @@ a:focus,
 .btn:hover,
 .btn:focus {
   color: inherit;
-  border-radius: 0;
 }
-
+.btn {
+	border-radius: 0;
+}
 h2 {
   margin-top: 250px;
   margin-bottom: 15px;
@@ -191,7 +192,9 @@ h3 {
 .timeline-rt {
   position: relative;
 }
-
+.timeline-rt p {
+	text-align: justify;
+}
 .circle {
   position: absolute;
   top: 0;
@@ -233,6 +236,24 @@ h3 {
 }
 
 
+.play, 
+.play:focus	{
+	display: inline-block;
+  width: 32px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #FFF;
+  border-radius: 16px;
+}
+.play:hover
+ {
+	text-decoration: none;
+	width: 32px;
+  line-height: 26px;
+  border-width: 3px;
+}
+
 /* team */
 
 .team-card {
@@ -255,10 +276,24 @@ h3 {
   width: 24.6666%;
   margin-right: 1px;
   background: #f7f7f7;
+  color: #444;
 }
 
-.social li:hover {
-  background: #00e1ff;
+.facebok:hover {
+  background: #36609e;
+  color: #fff;
+}
+.twitter:hover {
+  background: #2ca9e1;
+  color: #fff;
+}
+.google-plus:hover {
+  background: #db5442;
+  color: #fff;
+}
+.dribbble:hover {
+  background: #ee558e;
+  color: #fff;
 }
 
 .social .last {
