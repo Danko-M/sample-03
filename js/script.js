@@ -1,12 +1,6 @@
 $(function() {
-	var trueWidth = window.innerWidth;
-  function resizeBg() {
-    if (trueWidth >= 1200) {
-      $(".landing").backstretch("img/hero.jpg");
-    }
-  }  
-  resizeBg();
-
+	// full size width backgrounds
+  $(".landing").backstretch("img/hero.jpg");
   $(".c01").backstretch("img/city01.jpg");
   $(".c02").backstretch("img/city03.jpg");
 });
