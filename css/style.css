@@ -11,6 +11,7 @@ blue #00e1ff
 
 body {
   font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
 
 .container-fluid .container {
@@ -184,6 +185,9 @@ h3 {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+}
+.c01 {
+	overflow: hidden;
 }
 .browsers {
   margin-bottom: -30px;
