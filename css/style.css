@@ -238,21 +238,31 @@ h3 {
 }
 
 
+
+
+
+
+
+
+
+
 .play, 
 .play:focus	{
-	display: inline-block;
+  display: inline-block;
   width: 32px;
-  line-height: 28px;
-  text-align: center;
-  text-decoration: none;
+  padding-left: 2px;
+  padding-bottom: 1px;
   border: 2px solid #FFF;
   border-radius: 16px;
+  line-height: 27px;
+  text-align: center;
+  text-decoration: none;
 }
 .play:hover
  {
 	text-decoration: none;
 	width: 32px;
-  line-height: 26px;
+  line-height: 25px;
   border-width: 3px;
 }
 
@@ -321,6 +331,9 @@ h3 {
 
 
 /* news */
+.col-sm-8.col-sm-offset-2 {
+  perspective: 1000px;
+}
 
 .media-left {
   position: relative;
