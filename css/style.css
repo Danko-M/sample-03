@@ -363,9 +363,23 @@ h3 {
 
 /* end news */
 
+
+.bg5 {
+  background: #252726;
+}
+
+.bg5 .row {
+  color: #fff;
+}
+
+
+
 .map {
   height: 300px;
 }
+
+
+
 
 
 /* Custom, iPhone Retina */
@@ -433,12 +447,24 @@ h3 {
     font-size: 14px;
   }
   /* end news */
+  .bg5 {
+  	padding-bottom: 0;
+  }
+    .bg5 .row {
+  	background: url(../img/screens-sm.png) no-repeat;
+  }
+
 }
 
 
 /* Medium Devices, Desktops */
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .bg5 .row {
+  	background: url(../img/screens.png) no-repeat;
+  	min-height: 330px;
+  }
+}
 
 
 /* Large Devices, Wide Screens */

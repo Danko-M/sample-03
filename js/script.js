@@ -5,9 +5,9 @@ $(function() {
   $(".c02").backstretch("img/city03.jpg");
 
   		var config = { 
-  			reset:  true,
-  			mobile: false 
+  			reset:  true
   		};
-
-  		window.sr = new scrollReveal(config);
+ 	if(window.innerWidth >= 992) {
+  	window.sr = new scrollReveal(config);
+	}
 });
