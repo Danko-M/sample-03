@@ -343,6 +343,7 @@ h3 {
   position: relative;
   top: -10px;
   min-width: 65px;
+  vertical-align: middle;
 }
 
 .date {
@@ -372,8 +373,19 @@ h3 {
   color: #fff;
 }
 
-
-
+.testimonial {
+  margin-top: 20px;
+  padding: 25px 10px;
+  border: 1px solid #D3D3D3;
+}
+.testimonial .txt-blue {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.author {
+	font-size: 16px;
+	font-weight: 700;
+}
 .map {
   height: 300px;
 }
@@ -438,7 +450,6 @@ h3 {
   .media-left {
     top: -15px;
     min-width: 100px;
-    vertical-align: middle;
   }
   .date {
     font-size: 66px;
