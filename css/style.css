@@ -96,7 +96,9 @@ h3 {
 .txt-blue:focus {
   color: #00e1ff;
 }
-
+.mt40 {
+	margin-top: 40px;
+}
 .btn {
   border-radius: 0;
 }
@@ -137,7 +139,7 @@ h3 {
 
 /* end nav*/
 
-.landing {
+.hero {
   min-height: 700px;
   color: #fff;
 }
@@ -386,6 +388,28 @@ h3 {
 	font-size: 16px;
 	font-weight: 700;
 }
+
+input[type=text] {
+	position: relative;
+	width: 100%;
+  padding: 5px 10px;
+  margin-top: 60px;
+  background: #252726;
+  border: 0;
+  z-index: 5;
+}
+.frame:after {
+	content: "";
+  display: block;
+  height: 8px;
+  border: 2px solid #Fff;
+  position: relative;
+  bottom: 6px;
+  left: -2px;
+  margin-right: -4px;
+  border-top: 0;
+}
+
 .map {
   height: 300px;
 }
@@ -407,6 +431,12 @@ h3 {
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
+	.container-fluid,
+	.container {
+	  padding-top: 60px;
+	  padding-bottom: 60px;
+	}
+
   h2 {
     font-size: 60px;
   }
@@ -420,8 +450,9 @@ h3 {
   .navbar-brand {
     margin-left: -15px;
   }
+  .browsers,
   .mobile {
-    margin-bottom: -30px;
+    margin-bottom: -60px;
   }
   .timeline-lt {
     text-align: right;
@@ -481,12 +512,7 @@ h3 {
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width: 1200px) {
-  .container {
-    width: 1150px;
-  }
-  .landing {
-    background: none;
-  }
+
 }
 
 
